@@ -1,4 +1,4 @@
-### Archtypes
+### Archetypes
 
 The intent of this repo is to store a bunch of maven's templates or archtypes. I've create and pushed some archtypes which 
 in had used in some moment. But you can create your own archtype or just adapt them for your own propouse.
@@ -15,7 +15,7 @@ install
 
 create a new project from the archtype:
 
-	$ mvn archetype:generate -DarchetypeGroupId=com.apedrina.archtypes -DarchetypeArtifactId=java-angular  -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.apedrina.test -DartifactId=java-angular-test
+	$ mvn archetype:generate -DarchetypeGroupId=com.apedrina.archetypes -DarchetypeArtifactId=java-angular  -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.apedrina.test -DartifactId=java-angular-test
 
 ### Know more
 
