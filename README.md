@@ -9,6 +9,10 @@ create the archtype (using the java-angular archtype as example) :
 
 	$ mvn archetype:generate -DgroupId=com.apedrina.archtypes -DartifactId=java-angular -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-archetype
 
+others examples:
+
+	$ mvn archetype:generate -DgroupId=com.apedrina.archtypes -DartifactId=java-base -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-archetype
+
 install
 
 	$ mvn install
