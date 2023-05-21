@@ -1,0 +1,26 @@
+kafka:
+  brokers: localhost:29092
+  mechanism: PLAIN
+  security:
+    protocol: SASL_PLAINTEXT
+  topics:
+    number1:
+      request:
+        name: NUMBER1_REQUEST
+        channel: NUMBER1_REQUEST_CHANNEL
+      response:
+        name: NUMBER1_REQUEST
+        channel: NUMBER1_REQUEST_CHANNEL
+
+path:
+  jaas:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "info, health"
+
+logging:
+  level:
+    ROOT: INFO
