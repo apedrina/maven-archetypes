@@ -1,6 +1,6 @@
 ### Archetypes
 
-The intent of this repo is to store a bunch of maven's templates or archtypes. I've create and pushed some archtypes which 
+The intent of this repo is to store a bunch of maven's templates or archetypes. I've create and pushed some archtypes which 
 in had used in some moment. But you can create your own archetype or just adapt them for your own propouse.
 
 ### Use
